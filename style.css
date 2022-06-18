@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --liner: linear-gradient(180deg, #0B2026 0%, #041536 100%);
+}
+body{
+  width: 100vw;
+  height: 100vh;
+
+  background: var(--liner);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+main  h1{
+  font-weight: bold;
+  font-size: 2.5em;
+  text-align: center;
+  color: #16F57D;
+
+  margin-bottom: 40px;
+}
+
+main  #block-1{
+  width: 573px;
+  height: 179px;
+
+  
+  box-shadow: 4px 4px 8px rgba(14, 14, 14, 0.25);
+  background: rgba(1, 17, 20);
+
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 151.02%;
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main  #block-2{
+  width: 573px;
+  height: 109px;
+
+  background-image: linear-gradient(to bottom ,rgba(1, 17, 20) 50%, transparent 50%);
+  position: absolute;
+  border-image: fill;
+
+  border-radius: 0 0 8px 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main  #block-2 #img{
+  width: 66px;
+  height: 66px;
+
+  background: #16F57D;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+main  #block-2 #img > img{
+  width: 38px;
+  height: 38px;
+}
+
+div#center{
+  background:  rgba(1, 17, 20);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+fieldset{
+  background:  rgba(1, 17, 20);
+  border-top: 2px solid #5f5f5f;;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  display: block;
+  text-align: center;
+
+  width: 90%;
+}
+
+fieldset > legend{
+  color: white;
+  padding: 5px 10px;
+  background:  rgba(1, 17, 20);
+}
+
+@media only screen and (max-width: 700px){
+  main{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  main  #block-1{
+    width: 90vw;
+  }
+  main  #block-2{
+    width: 90vw;
+  }
+  main  #center{
+    width: 90vw;
+  }
+}
+
