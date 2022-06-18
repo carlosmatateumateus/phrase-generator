@@ -1,5 +1,5 @@
 # phrase-generator
 
-# Hello
+# Hello 👋
 
 [Visit website](carlosmatateumateus.github.io/phrase-generator)
