@@ -1,4 +1,4 @@
-# phrase-generator
+# Phrase-generator
 
 # Hello 👋
 
