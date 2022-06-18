@@ -2,4 +2,4 @@
 
 # Hello 👋
 
-[Visit website](carlosmatateumateus.github.io/phrase-generator)
+[Visit website](https://carlosmatateumateus.github.io/phrase-generator/)
